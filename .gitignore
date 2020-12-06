@@ -1,0 +1,5 @@
+*.jpg
+*.ttc
+*.dat
+.ipynb_checkpoints
+.DS_Store
