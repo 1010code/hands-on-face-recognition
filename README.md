@@ -14,11 +14,22 @@
 ![](https://i.imgur.com/BmZO5GA.png)
 
 ### 辨識圖片中人物
-接下來另外實際找幾張照片進行人臉辨識。[face_recognition](https://github.com/ageitgey/face_recognition)套件呼叫  `face_encodings()` 方法會將輸入的照片進行編碼，並與 `image` 資料夾所有照片逐一比對，尋找特徵相似度最近的人作為輸出。辨識成功就會以綠框表示並顯示人名，若資料庫中尚未此人則以紅框表示。
+接下來另外實際找幾張照片進行人臉辨識。[face_recognition](https://github.com/ageitgey/face_recognition) 套件呼叫  `face_encodings()` 方法會將輸入的照片進行編碼，並與 `image` 資料夾所有照片逐一比對，尋找特徵相似度最近的人作為輸出。辨識成功就會以綠框表示並顯示人名，若資料庫中尚未此人則以紅框表示。
 
 ![](https://i.imgur.com/wiZZhs2.png)
 
 ## Digital Makeup (Demo 2)
+我們可以透過人臉辨識偵測圖片中人物的眉毛、眼睛、嘴巴的位置。既然位置都定位得到，是否可以向美圖秀秀APP一樣將人物上妝？答案是可！
+
+![](https://i.imgur.com/y7y2ZHo.png)
+
+## 實作流程
+1. 載入圖片並使用 `face_recognition.face_landmarks()` 找出人臉的輪廓
+2. 將眉毛、眼睛、嘴巴上色
+
+大家可以試試調整 `fill=(X, X, X, X)` 來上不同顏色的妝容。
+
+![](https://i.imgur.com/iYjjfct.png)
 
 ## 手刻人臉辨識統 (Demo 3) 
 利用 Pre-train 好的 Dlib model，進行人臉辨識　(Face Detection)　，並且實現僅用一張照片作為 database　就可以作出達到一定效果的人臉識別 (Face Recognition)。
