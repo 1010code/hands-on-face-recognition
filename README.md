@@ -29,7 +29,7 @@
 
 大家可以試試調整 `fill=(X, X, X, X)` 來上不同顏色的妝容。
 
-![](https://i.imgur.com/iYjjfct.png)
+![](https://i.imgur.com/WKWJLM0.png)
 
 ![](https://i.imgur.com/TvPCbET.gif)
 
