@@ -3,7 +3,7 @@
 
 | 人臉辨識套件 (Demo 1)      |  Digital Makeup (Demo 2) |  手刻人臉辨識統 (Demo 3)                      |
 |--------------------------------------|--------------------------------------|--------------------------------------|
-| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/1010code/hands-on-face-recognition/blob/main/Face_Recognition_using_face_recognition.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/1010code/hands-on-face-recognition/blob/main/digital_makeup.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/1010code/hands-on-face-recognition/blob/main/face-recognition.ipynb) |
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/1010code/hands-on-face-recognition/blob/main/Face_Recognition_using_face_recognition.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/1010code/hands-on-face-recognition/blob/main/digital_makeup.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/1010code/hands-on-face-recognition/blob/main/face_recognition.ipynb) |
 
 ## 人臉辨識套件 (Demo 1)
 第一個手把手使用現成套件 [face_recognition](https://github.com/ageitgey/face_recognition) 來實作人臉辨識系統。透過此套件可以快速的將每張影像中識別人臉的關鍵點，包括`眼睛`、`鼻子`、`嘴`和`下巴`。
