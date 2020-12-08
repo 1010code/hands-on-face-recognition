@@ -31,6 +31,8 @@
 
 ![](https://i.imgur.com/iYjjfct.png)
 
+![](https://i.imgur.com/TvPCbET.gif)
+
 ## 手刻人臉辨識統 (Demo 3) 
 利用預訓練好的 Dlib model，進行人臉辨識，並且實現僅用一張照片作為 database 就可以作出達到一定效果的人臉識別。在實作前需要下載以下兩個是先訓練好的參數，分別為找出68個臉部特徵點以及人臉Embedding模型。
 
